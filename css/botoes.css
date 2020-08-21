@@ -1,0 +1,38 @@
+
+#i_calcular, #i_limpar{
+    color: rgb(62, 63, 66);
+    
+    font-family: 'O';
+    font-size: 2rem;
+
+    text-align: center;
+
+    margin: 1rem;
+    padding: 0.5rem;
+
+    border: none;
+    border-radius: 10px;
+
+    outline: none;
+
+    cursor: pointer;
+    
+    transition: all ease 0.5s;
+}
+
+#i_calcular:hover, #i_limpar:hover{
+    background: rgb(44, 44, 46);
+    color: rgb(180, 180, 180);
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 450px;
+
+    margin: auto;
+
+    transition: all ease 0.5s;
+}

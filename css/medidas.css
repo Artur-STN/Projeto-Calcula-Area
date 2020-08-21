@@ -1,0 +1,16 @@
+
+#medidas {
+    font-family: 'O';
+    font-size: 2.5rem;
+
+    margin: 20px;
+    padding: 0.4rem;
+
+    width: 450px;
+
+    outline: none;
+
+    cursor: pointer;
+
+    border-radius: 10px;
+}

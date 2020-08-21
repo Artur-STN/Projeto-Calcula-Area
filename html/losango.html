@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Calculo de Áreas</title>
+
+        <link rel="stylesheet" href="../css/losango.css">
+        <link rel="stylesheet" href="../css/botoes.css">
+        <link rel="stylesheet" href="../css/medidas.css">
+
+        <script src="../js/losango.js"></script>
+
+    </head>
+
+    <body>
+
+        <div class="opcoes">
+            
+        <a href="../index.html" class="home"><p>Home</p></a>
+
+            <h1 class="titulo">Outras formas geometricas</h1>
+
+        <div class="all-formas">
+                
+            <a href="quadrado.html" class="Aformas"><p >QUADRADO</p></a>
+        
+            <a href="trapezio.html" class="Aformas"><p >TRAPÉZIO</p></a>
+            
+            <a href="triangulo.html" class="Aformas"><p >TRIÂNGULO</p></a>
+
+        </div>
+        
+        <h1 class="titulo">Informe os dados</h1>
+
+        <p class="titulo atencao">NÃO SE ESQUEÇA QUE OS LADOS DEVEM ESTAR NA MESMA MEDIDA!</p>
+
+        <div class="dados">
+
+            <p><label for="medidas">Selecione a medida:</label>
+                
+                <select  id="medidas">
+                    
+                    <option value="Km">Quilômetro</option>    
+                    
+                    <option value="m">Metros</option>
+                        
+                    <option value="Cm">Centimetros</option>
+
+                    <option value="Mm">Milímetros</option>
+                    
+                </select>
+            
+            </p>
+
+            <p class="p_d_maior">Diagonal Maior: <input type="number" name="i_d_maior" id="i_d_maior" placeholder="Medidas Proporcionais"></p>
+
+            <p class="p_d_menor">Diagonal Menor: <input type="number" name="i_d_menor" id="i_d_menor" placeholder="Medidas Proporcionais"></p>
+
+            <input type="button" value="Calcular" id="i_calcular" onclick="calcular()">
+
+            <input type="button" value="Limpar Dados" id="i_calcular" onclick="limpar()">
+
+        </div>
+
+        <div class="res">
+
+            <p id="p_res"></p>
+
+        </div>
+
+    </body>
+
+</html>

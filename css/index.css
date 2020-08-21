@@ -1,0 +1,110 @@
+@font-face {
+    src: url('../fontes/TitilliumWeb-Regular.ttf');
+    font-family: 'T-Regular';
+}
+
+@font-face {
+    src: url('../fontes/TitilliumWeb-Black.ttf');
+    font-family: 'T-Black';
+}
+
+@font-face {
+    src: url('../fontes/Oswald-VariableFont_wght.ttf');
+    font-family: 'O';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 15px;
+    background: rgb(62, 63, 66);
+}
+
+.titulo {
+    background: rgb(62, 63, 66);
+    color: white;
+
+    padding: 10px;
+
+    font-family: 'T-Regular';
+    font-size: 3rem;
+
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+}
+
+.opcoes {
+    background: rgb(62, 63, 66);
+
+    padding: 10px;
+
+    height: 600px;
+}
+
+.all-formas {
+    width: 355px;
+
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Aformas {
+    color: rgb(180, 180, 180);
+
+    font-family: 'O';
+    font-size: 2rem;
+
+    text-decoration: none;
+
+    margin: auto;
+
+    border: solid 2px;
+
+    width: 150px;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Aformas:hover {
+    background: rgb(180, 180, 180);
+    color: rgb(62, 63, 66);
+
+    border: solid rgb(180, 180, 180);
+
+    transition: ease all 0.5s;
+}
+
+
+@media(min-width: 1100px) {
+
+    .titulo {
+        font-size: 5rem;
+    }
+
+    .opcoes {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 700px;
+
+        margin: auto;
+    }
+
+    .all-formas {
+        margin-right: 0;
+        margin-left: 0;
+    }
+}
